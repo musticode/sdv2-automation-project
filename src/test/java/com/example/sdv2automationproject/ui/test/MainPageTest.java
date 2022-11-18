@@ -1,5 +1,6 @@
-package com.example.sdv2automationproject;
+package com.example.sdv2automationproject.ui.test;
 
+import com.example.sdv2automationproject.ui.pages.MainPage;
 import org.testng.annotations.*;
 
 import static org.testng.Assert.*;

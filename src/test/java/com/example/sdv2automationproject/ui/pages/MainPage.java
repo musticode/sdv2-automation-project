@@ -1,4 +1,4 @@
-package com.example.sdv2automationproject;
+package com.example.sdv2automationproject.ui.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
