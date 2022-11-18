@@ -1,6 +1,7 @@
 package com.example.sdv2automationproject.ui.test;
 
 import com.example.sdv2automationproject.ui.pages.MainPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.*;
 
 import static org.testng.Assert.*;
@@ -18,6 +19,7 @@ public class MainPageTest {
 
     @BeforeMethod
     public void setUp() {
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
